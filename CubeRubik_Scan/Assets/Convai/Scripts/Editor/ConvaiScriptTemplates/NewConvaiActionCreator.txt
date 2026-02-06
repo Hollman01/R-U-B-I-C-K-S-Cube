@@ -1,0 +1,18 @@
+using System.Collections.Generic;
+using Convai.Scripts.Action;
+using Convai.Scripts.Action.Actions;
+using Convai.Scripts.Action.Models;
+using Convai.SDK.CSharp.Actions.Parsers;
+using UnityEngine;
+
+public class #SCRIPTNAME# : MonoBehaviour, IConvaiActionCreator
+{
+    private List<ConvaiInteractableItem> _interactableItems;
+    public void SetConvaiInteractableItemList( List<ConvaiInteractableItem> list ) {
+        throw new System.NotImplementedException();
+    }
+
+    public ConvaiActionBase CreateAction( ParsedAction parsedAction, GameObject npcGameobject ) {
+        throw new System.NotImplementedException();
+    }
+}

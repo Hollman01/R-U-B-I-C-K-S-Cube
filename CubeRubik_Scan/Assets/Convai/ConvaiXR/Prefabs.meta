@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Convai/ConvaiXR/Prefabs.meta
+guid: 56af7de48f3e28b4081b2ab7ad5a140e
+|||||||| 44398e6:Assets/Convai/Editor/Configuration Window.meta
+guid: ba463816635ca16449fb678ec3e4e074
+========
+guid: a4406633dca3d0c47b441012594bac84
+>>>>>>>> main:Assets/Convai/ConvaiXR.meta
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

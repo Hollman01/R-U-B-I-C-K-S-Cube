@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance"
+         engine="UnityEngine.UIElements" editor="UnityEditor.UIElements"
+         noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style
+        src="project://database/Assets/Convai/Editor/Configuration%20Window/Style/Convai%20Configuration%20Window%20Stylesheet.uss?fileID=7433441132597879392&amp;guid=a9ddcc680397e3b4f815150b3abd1c7b&amp;type=3#Convai Configuration Window Stylesheet"/>
+    <Convai.Editor.Configuration_Window.Components.ConvaiConfigurationWindow name="ConvaiConfigurationWindow"
+                                                                             initial-section="server-animation"/>
+</ui:UXML>

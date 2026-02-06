@@ -1,0 +1,51 @@
+using System.Collections.Generic;
+using Convai.Scripts.Action.Actions;
+using UnityEngine;
+
+public class #SCRIPTNAME#: ConvaiActionBase {
+    /// <summary>
+    ///     Initialize your Custom Actions Parameters
+    /// </summary>
+    /// <param name="parameters">Dictionary of Parameters</param>
+    /// <param name="monoBehaviour">GameObject of the NPC</param>
+    /// <param name="actionName">Name Of the Action</param>
+    public override void Initialize( Dictionary<string, object> parameters, MonoBehaviour monoBehaviour, string actionName ) {
+        throw new System.NotImplementedException();
+    }
+
+    /// <summary>
+    ///     Performs the Action
+    /// </summary>
+    public override void PerformAction() { 
+        throw new System.NotImplementedException();
+    }
+
+    /// <summary>
+    ///     Interrupt or Cancel the Action
+    /// </summary>
+    public override void InterruptAction() {
+        throw new System.NotImplementedException();
+    }
+
+    /// <summary>
+    ///     Pauses the Action
+    /// </summary>
+    public override void Pause() {
+        throw new System.NotImplementedException();
+    }
+
+    /// <summary>
+    ///     Resumes the Actions
+    /// </summary>
+    public override void Resume() {
+        throw new System.NotImplementedException();
+    }
+
+
+    /// <summary>
+    ///     Called when Action is Finished and Needs to be Cleaned up
+    /// </summary>
+    public override void Cleanup() {
+        throw new System.NotImplementedException();
+    }
+}

@@ -1,0 +1,354 @@
+.nav-bar-btn {
+    margin: 0 0 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+    color: rgb(209, 250, 229);
+    background-color: rgb(45, 106, 79);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-radius: 6px;
+    font-size: 14px;
+    -unity-text-align: middle-left;
+    scale: 0.95 0.95;
+    transform-origin: left;
+}
+
+.nav-bar-btn:hover {
+    margin: 0 0 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+    color: rgb(11, 96, 73);
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    font-size: 14px;
+    -unity-font-style: bold;
+    transition-duration: 0.1s;
+    translate: 0 0;
+    scale: 1 1;
+    transform-origin: left;
+}
+
+.nav-bar-btn--active {
+    margin: 0 0 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(82, 183, 136);
+    border-radius: 6px;
+    font-size: 14px;
+    -unity-font-style: bold;
+    transition-duration: 0.1s;
+    translate: 0 0;
+    scale: 1 1;
+    transform-origin: right;
+}
+
+.convai-logo {
+    flex-grow: 0;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Assets/Convai/Art/UI/Logos/Convai%20Logo.png?fileID=2800000&guid=b688e0950e2692e4187f9358cfb18984&type=3#Convai Logo');
+    -unity-background-scale-mode: scale-to-fit;
+    flex-shrink: 0;
+    height: 70px;
+}
+
+.nav-bar {
+    flex-grow: 0;
+    background-color: rgb(11, 96, 73);
+    flex-shrink: 0;
+    height: 100%;
+    width: 260px;
+    padding: 12px 24px;
+}
+
+.content-container {
+    flex-grow: 1;
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+}
+
+.section-card {
+    display: none;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.1);
+    background-color: rgb(243, 244, 246);
+    border-radius: 6px;
+    padding: 24px;
+    flex-grow: 1;
+}
+
+.header {
+    font-size: 24px;
+    -unity-font-style: bold;
+    color: rgb(31, 41, 55);
+    margin-bottom: 16px;
+}
+
+.mb-4 {
+    margin-bottom: 16px;
+    color: rgb(58, 84, 78);
+    white-space: normal;
+}
+
+.mb-2 {
+    color: rgb(67, 67, 67);
+    white-space: normal;
+}
+
+.bold {
+    -unity-font-style: bold;
+}
+
+.subheader {
+    -unity-font-style: bold;
+    font-size: 18px;
+    border-width: 0 0 2px 0;
+    border-color: rgb(209, 213, 219);
+    color: rgb(9, 97, 72);
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+    margin-left: 0;
+}
+
+.button {
+    background-color: rgb(11, 96, 73);
+    border-radius: 6px;
+    border-width: 2px;
+    border-color: transparent;
+    -unity-font-style: bold;
+    color: white;
+    transition-duration: 0.1s;
+}
+
+.button:hover {
+    color: rgb(11, 96, 73);
+    background-color: white;
+    border-color: rgb(11, 96, 73);
+}
+
+.padding-medium {
+    padding: 8px 12px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-width: 1px;
+    border-color: rgb(229, 231, 235);
+}
+
+.label {
+    font-size: 16px;
+    -unity-font-style: bold;
+    color: rgb(45, 106, 79);
+    margin: 0 0 8px;
+    padding: 0;
+}
+
+.helper-text {
+    font-size: 14px;
+    color: rgb(107, 114, 128);
+    margin: 4px 0 0;
+    padding: 0;
+}
+
+.unity-base-field {
+    margin: 0;
+}
+
+.unity-text-field #unity-text-input {
+    background-color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-color: rgb(209, 213, 219);
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin: 0;
+    font-size: 15px;
+    color: rgb(51, 51, 51);
+}
+
+.unity-text-field #unity-text-input:hover {
+    border-color: rgb(156, 163, 175);
+}
+
+.unity-text-field #unity-text-input:focus {
+    border-color: rgb(9, 94, 56);
+}
+
+.textarea {
+    min-height: 120px;
+}
+
+.btn-medium {
+    font-size: 12px;
+}
+
+.m-p-zero {
+    margin: 0;
+    padding: 0;
+}
+
+.margin-small {
+    margin: 6px 0;
+}
+
+.margin-medium {
+    margin: 12px 8px;
+}
+
+.usage-bar {
+    margin: 6px 0;
+}
+
+.usage-bar .unity-progress-bar__background {
+    background-color: rgb(229, 231, 235);
+    border-radius: 6px;
+}
+
+.usage-bar .unity-progress-bar__container {
+    background-color: rgb(229, 231, 235);
+    border-radius: 6px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.usage-bar .unity-progress-bar__progress {
+    background-color: rgb(59, 130, 246);
+    border-radius: 3px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.root {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0);
+    flex-direction: row;
+}
+
+.button-small {
+    padding: 8px 12px;
+    font-size: 12px;
+    background-color: rgb(11, 96, 73);
+    border-radius: 6px;
+    border-width: 2px;
+    border-color: transparent;
+    -unity-font-style: bold;
+    color: white;
+    transition-duration: 0.1s;
+}
+
+.button-small:hover {
+    color: rgb(11, 96, 73);
+    background-color: white;
+    border-color: rgb(11, 96, 73);
+}
+
+.button-small:active {
+    background-color: rgb(45, 106, 79);
+}
+
+.changelog-section {
+    font-size: 16px;
+    -unity-font-style: bold;
+    color: rgb(33, 150, 243);
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.changelog-item {
+    font-size: 10px;
+    margin: 0;
+    padding: 0 0 0 20px;
+    color: rgb(51, 51, 51);
+    white-space: normal;
+}
+
+.ltm-table {
+    border-radius: 6px;
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0.22);
+}
+
+.unity-toggle__checkmark {
+    background-color: white;
+    border-radius: 6px;
+    border-color: rgba(0, 0, 0, 0.22);
+    border-width: 2px;
+}
+
+.logger-table-row {
+    color: rgb(20, 66, 47);
+    background-color: rgba(0, 0, 0, 0);
+    flex-direction: row;
+    justify-content: space-between;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 0;
+    padding: 5px;
+    -unity-text-align: middle-left;
+    border-radius: 0;
+}
+
+.logger-table-row-first {
+    border-radius: 4px 4px 0 0;
+}
+
+.logger-table-row-last {
+    border-radius: 0 0 4px 4px;
+    border-bottom-width: 1px;
+}
+
+.logger-table-element {
+    width: 14.28%;
+    margin: 0;
+}
+
+.logger-table {
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+
+.server-animation-card {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    padding: 0;
+    border-radius: 6px;
+    border-width: 2px;
+    background-color: white;
+}
+
+.server-animation-card > Image {
+    width: 100%;
+    height: 80%;
+    -unity-background-scale-mode: scale-and-crop;
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.server-animation-card-label {
+    margin: 0;
+    flex-grow: 1;
+    -unity-text-align: middle-left;
+    padding: 0 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 12px;
+    color: rgb(20, 66, 47);
+    -unity-font-style: bold;
+}
